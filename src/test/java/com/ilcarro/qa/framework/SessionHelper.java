@@ -39,7 +39,7 @@ public class SessionHelper extends HelperBase {
     }
 
     public void fillRegistrationForm(User user) {
-        type(By.cssSelector("#firs_name"), user.getfName());
+        type(By.cssSelector("#first_name"), user.getfName());
         type(By.cssSelector("#second_name"), user.getlName());
         type(By.cssSelector("#email"), user.getEmail());
         type(By.cssSelector("#password"), user.getPassword());
